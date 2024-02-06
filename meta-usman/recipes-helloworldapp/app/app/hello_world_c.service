@@ -1,0 +1,9 @@
+[Unit]
+Description=My C-program hello_world application
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/hello_world
+
+[Install]
+WantedBy=default.target
