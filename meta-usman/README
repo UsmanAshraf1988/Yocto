@@ -5,37 +5,25 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
+  URI: <pokyy>
+  branch: <kirkstone>
 
-  URI: <second dependency>
-  branch: <branch name>
 
-  .
-  .
-  .
+Please submit any patches against the meta-usman layer to the u.ashraf1988.gmail.com
 
-Patches
-=======
-
-Please submit any patches against the meta-usman layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
-
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: Usman ASHRAF <u.ashraf1988.gmail.com>
 
 Table of Contents
 =================
 
-  I. Adding the meta-usman layer to your build
- II. Misc
+  1. Navigation related recipes
+  2. Patch related recipes
+  3. Init Deamon and demo application
 
 
-I. Adding the meta-usman layer to your build
+
+Adding the meta-usman layer to your build
 =================================================
 
 Run 'bitbake-layers add-layer meta-usman'
 
-II. Misc
-========
-
---- replace with specific information about the meta-usman layer ---
